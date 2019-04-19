@@ -1,0 +1,29 @@
+//Widget Styling
+
+.widget {
+    background: $light-blue;
+    margin-bottom: $four-eight;
+}
+
+.message {
+    color: $light-purple;
+    margin: 0;
+    padding: $three-two;
+    text-align: center;
+    border-bottom: .2rem solid lighten($color: $light-blue, $amount: 10%);
+    font-size: 2rem;
+}
+
+//Widget Header Styling
+
+.widget-header {
+    background: $blue;
+    color: $light-purple;
+    padding: $one-six;
+    display: flex;
+    justify-content: space-between;
+}
+
+.widget-header__title {
+    margin: 0;
+}

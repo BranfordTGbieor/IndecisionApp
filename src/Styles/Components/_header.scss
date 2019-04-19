@@ -1,0 +1,27 @@
+.header {
+    background-color: $back-ground-color;
+    margin-bottom: $three-two;
+    padding: 1rem 0;
+    color: white;
+
+}
+
+.header__title {
+    font-size: $three-two;
+    margin: 0;
+}
+
+.header__subtitle {
+    color:$light-purple;
+    font-weight: 500;
+    margin: 0;
+    font-size: $one-six;
+}
+
+
+@media (min-width: $desktop-breakpoint) {
+    .header {
+        margin-bottom: $four-eight;
+    }
+
+}

@@ -1,0 +1,17 @@
+//Individual Option Styling
+
+.option {
+    display: flex;
+    justify-content: space-between;
+    padding: $three-two $one-six;
+    border-bottom: .1rem solid lighten($color: $light-blue, $amount: 10%);
+
+}
+
+.option__text {
+    margin: 0;
+    font-weight: 500;
+    font-size: 2rem;
+    color: white;
+    word-break: break-all;
+}

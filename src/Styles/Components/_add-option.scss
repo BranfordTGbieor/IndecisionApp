@@ -1,0 +1,38 @@
+//Error Message Styling
+
+.add-option-error {
+    color: red;
+    font-weight: normal;
+    padding: 0 $three-two;
+    margin-top: $one-six;
+}
+
+//Form input styling
+
+.add-option {
+    display: flex;
+    padding: $one-six;
+    flex-direction: column;
+}
+
+.add-option__input {
+    flex-grow: 1;
+    background: $blue;
+    border: none;
+    border-bottom: .3rem solid darken($color: $blue, $amount: 10%);
+    margin-right: 0 0 $small-size 0;
+    color: $light-purple;
+    padding: $one-six;
+    font-size: 1.8rem;
+}
+
+@media (min-width: 45rem) {
+    .add-option {
+        flex-direction: row;
+    }
+
+    .add-option__input {
+        margin: 0 $small-size 0 0;
+     }
+
+}
